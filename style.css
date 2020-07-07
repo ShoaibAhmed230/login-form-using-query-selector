@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    /* background-color: rgb(53, 92, 110); */
+    background-image: url(back-img.jpg);
+    margin: 0px;
+}
+.form{
+    position: absolute;
+    top: 200px;
+    left: 26%;
+    height: auto;
+    width: 50%;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    display: block;
+    font-size: 56px;
+    font-family: serif;
+    margin: 20px;
+}
+#fname, #lname{
+    display: block;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 33px;
+    /* margin: auto; */
+    margin-left: 153px;
+}
+button{
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    /* margin-left: 50px; */
+    width: 28%;
+    margin: auto;
+    background-color: #96b5c4;
+}
